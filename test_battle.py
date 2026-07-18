@@ -8,9 +8,9 @@ import io
 import contextlib
 
 try:
-    from battle import Character, Weapon, Battle
+    from battle_starter import Character, Weapon, Battle
 except ImportError:
-    print("FAIL: Could not import Character/Weapon/Battle from battle.py")
+    print("FAIL: Could not import Character/Weapon/Battle from battle_starter.py")
     raise SystemExit(1)
 
 
